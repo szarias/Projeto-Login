@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+body{
+    background-color: #F2F2F2;
+}
+.content-center{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+.content-center img{
+    width: 70%;
+}
+.content-center form{
+    margin: 20px;
+}
+.content-center input,
+.content-center button{
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+.content-center input{
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 10px;
+}
+.content-center input:focus{
+    border-bottom-color: coral;
+}
+.content-center button{
+    background-color: coral;
+    color: #ffffff;
+}
+.content-center button:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.content-center button:active{
+    background-color: red;
+}
+header a{
+    text-decoration: none;
+    color: 666;
+}
+header a:visited{
+    color: black;
+}
+header a:focus{
+    color: red;
+}
+header a:active{
+    color: yellow;
+}
+header h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px auto;
+}
+footer p{
+    margin-top: 1em;
+    font-size: 0.8em;
+    text-align: center;
+}
+#text-center{
+    text-align: center;
+}
